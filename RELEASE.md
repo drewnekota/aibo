@@ -20,8 +20,8 @@
 - 构建机需要 Node 22+、Rust、Xcode 命令行工具、dsh；发布需要登录 `gh`。
   构建依赖沿用 `scripts/build.sh`，从已安装的 dsh 链接。
 
-更新源是公开仓库 `omdsh-dev/dsh-gal` 的
-`https://github.com/omdsh-dev/dsh-gal/releases/latest/download/latest.json`。
+更新源是公开仓库 `drewnekota/aibo` 的
+`https://github.com/drewnekota/aibo/releases/latest/download/latest.json`。
 仓库必须保持公开可下载。Apple 签名和更新包签名是两个独立步骤。
 
 ## 构建与发布

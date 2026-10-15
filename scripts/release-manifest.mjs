@@ -20,7 +20,7 @@ export function manifest(version, arch, signature) {
   return {
     version, notes: `Aibo ${version}`, pub_date: new Date().toISOString(),
     platforms: { [`darwin-${arch === 'arm64' ? 'aarch64' : 'x86_64'}`]: {
-      url: `https://github.com/omdsh-dev/dsh-gal/releases/download/v${version}/Aibo.app.tar.gz`,
+      url: `https://github.com/drewnekota/aibo/releases/download/v${version}/Aibo.app.tar.gz`,
       signature: signature.trim(),
     } },
   };

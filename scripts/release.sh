@@ -28,7 +28,7 @@ fi
 export TAURI_SIGNING_PRIVATE_KEY="${TAURI_SIGNING_PRIVATE_KEY:-$HOME/.config/aibo/updater.key}"
 export TAURI_SIGNING_PRIVATE_KEY_PASSWORD="${TAURI_SIGNING_PRIVATE_KEY_PASSWORD:-}"
 VERSION="$(node scripts/release-manifest.mjs version)"
-REPO=omdsh-dev/dsh-gal
+REPO=drewnekota/aibo
 TAG="v$VERSION"
 if [ "$PUBLISH" = 1 ]; then
   [ -z "$(git status --porcelain)" ] || { echo "Commit changes before publishing." >&2; exit 1; }

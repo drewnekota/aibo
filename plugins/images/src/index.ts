@@ -72,7 +72,7 @@ const KEEP = 30
 // ---- providers --------------------------------------------------------------
 
 export interface Hit { title: string; page: string; source: string; thumb: string; url: string; width?: number; height?: number; note?: string }
-const UA = 'dsh-images/0.1 (https://github.com/omdsh-dev/aibo; a personal assistant fetching one image for its user)'
+const UA = 'dsh-images/0.1 (https://github.com/drewnekota/aibo; a personal assistant fetching one image for its user)'
 
 async function brave(key: string, query: string, count: number, safesearch: string): Promise<Hit[]> {
   const params = new URLSearchParams({ q: query, count: String(count), safesearch, spellcheck: '1' })

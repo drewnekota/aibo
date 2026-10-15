@@ -9,7 +9,7 @@
 <p align="center"><strong>Desktop pet</strong> · <strong>Live character stage</strong> · <strong>Spoken replies</strong> · <strong>Lists &amp; files</strong> · <strong>Memory</strong> · <strong>Personal data connectors</strong> · <strong>Computer Use</strong></p>
 
 <p align="center">
-  <a href="https://github.com/omdsh-dev/dsh-gal/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/omdsh-dev/aibo?style=flat" /></a>
+  <a href="https://github.com/drewnekota/aibo/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/drewnekota/aibo?style=flat" /></a>
   <a href="LICENSE"><img alt="BSD-3-Clause license" src="https://img.shields.io/badge/license-BSD--3--Clause-blue" /></a>
   <img alt="macOS" src="https://img.shields.io/badge/macOS-Apple_Silicon-111111?logo=apple" />
   <img alt="Node 22+" src="https://img.shields.io/badge/node-22%2B-339933?logo=node.js&logoColor=white" />
@@ -35,7 +35,7 @@ The images above are controlled previews with sample text, rendered from the shi
 
 This release also adds a **Thinking level** preference, defaulting to **low** when the selected model supports it, and fixes Escape dismissal in the quick launcher. Signed macOS updates are checked automatically; from 0.2.0, a native prompt lets you download/install and choose when to restart. Existing 0.1.0 installs use **更新 → 检查更新** for this first upgrade.
 
-[Download the latest signed macOS release](https://github.com/omdsh-dev/dsh-gal/releases/latest) · Apple Silicon · macOS 12+
+[Download the latest signed macOS release](https://github.com/drewnekota/aibo/releases/latest) · Apple Silicon · macOS 12+
 
 ## Demo
 
@@ -60,7 +60,7 @@ Swap the character pack and the same agent shows up as someone else: art, person
 ## Quick start
 
 ```bash
-git clone https://github.com/omdsh-dev/dsh-gal aibo && cd aibo
+git clone https://github.com/drewnekota/aibo && cd aibo
 ./scripts/build.sh        # compile src/ → lib/ against your installed dsh
 npm run start:web         # opens the UI in your browser
 ```
@@ -238,7 +238,7 @@ open src-tauri/target/release/bundle/macos/Aibo.app
 ## Install into your own dsh
 
 ```bash
-git clone https://github.com/omdsh-dev/dsh-gal aibo
+git clone https://github.com/drewnekota/aibo
 cd aibo && ./scripts/build.sh
 ```
 
